@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Young+Serif&display=swap');
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body {
+font-family: 'Young Serif', serif;
+text-align: center;}
+.intro-image {
+    background-attachment: fixed;
+    background-image: url(/img/image\ 1.jpeg); height: 600px;
+     background-size: cover;
+      display: flex;
+       align-items: center;
+        justify-content: center;
+     background-position: top; 
+    background-attachment: fixed;}
+.intro-image_link a {
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #d0d9de;
+    background-color: #1e1c21ab;
+    border: #d0d9de 2px solid;
+    padding: 2rem;
+    transition: all 1s ease-in-out;
+}
+.intro-image_link a:hover{ transform: scale(1.2);}
+.intro-text {background-color: teal; color: antiquewhite; display: flex; align-items: center; justify-content: center; height: 250px; padding: 0 15rem;}
+.intro-text_textbox h3{font-size: 2rem; text-transform: uppercase; margin-bottom: 1rem  }
+.quality-image {
+    background-attachment: fixed;
+    height: 400px;
+     background-image:
+      url('/img/image\ 2.jpeg');
+       background-size: cover;
+        display: 
+        flex; align-items: center;
+         justify-content: center; 
+         background-position: middle; 
+         background-attachment: fixed }
+.quality-image_link a 
+{  
+     display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: powderblue;
+    background-color:grey;
+    border: #507f982f 2px solid;
+    padding: 2rem;
+    transition: all 1s ease-in-out;
+text-decoration: none;}
+.quality-image_link a:hover{ transform: scale(1.2);}
+.quality-text {background-color:
+     rgb(54, 94, 89);
+      color: rgb(196, 135, 61);
+       display: flex; align-items: 
+       center; justify-content: center; 
+       height: 250px; padding: 0 15rem;
+}
+.quality-text h3 { font-size: 2rem; text-transform: uppercase; margin-bottom: 1rem  }
+.footer {height: 250px; background-color: moccasin;color:maroon;padding-top: 2rem; font-size: 2rem;}
+.footer ul li {display: inline; margin: 1rem;}
+.footer ul li a {color: #1a6892; text-decoration: none;}
+.origin-image { height: 400px; background-image: url("/img/image\ 3.jpeg"); background-size: cover; display: flex; align-items: center; justify-content: center; background-position: middle; background-attachment: fixed }
+.footer ul li:hover { transform: scale(1.3);}
+.origin-text {background-color: brown; color: tan; display: flex; align-items: center; justify-content: center; height: 250px; padding: 0 15rem;
+}
+.origin-text h3 {font-size: 2rem; text-transform: uppercase; margin-bottom: 1rem  }
